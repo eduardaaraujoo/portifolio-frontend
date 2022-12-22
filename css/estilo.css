@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header h1 {
+    font-size: 30pt;
+    text-shadow: 1px 2px 2px black;
+
+}
+
+header {
+    background-image: url(../img/capa1.jpg);
+    height: 96vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background-size: cover;
+}
+
+h1, body {
+    margin: 0;
+}
+
+header p {
+    font-size: 30px;
+    text-shadow: 2px 2px black;
+}
+
+h1, header p {
+    color: rgb(255, 255, 255);
+}
+
+button, a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header button {
+    background-color: white;
+    color: #272d81;
+    font-size: 12pt;
+    text-transform: uppercase; /*para deixar a letra maiúscula */
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.descricao {
+    margin-right: 50px;
+    border: 1px dashed #272d81;
+    border-radius: 10px;
+    min-width: 300px;
+    line-height: 1.8em;
+    width: 33%;
+}
+
+main {
+    padding: 60px;
+}
+
+main p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+main h2 {
+    color: #272d81;
+    font-size: 26px;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.37);
+}
+
+main, div, p {
+    margin-bottom: 30px;
+}
+
+
+main button {
+    padding: 4px;
+
+}
+
+.content {
+    display: flex;
+}
+
+.habilidades {
+    width: 55%;
+}
+
+.descricao, .habilidades{
+    display: inline-block; /*p/ deixar duas caixas uma do lado da outra */
+    text-align: justify;
+    padding: 5px 5px 7px 25px;
+}
+
+.habilidades {
+    margin: 25px;
+}
+
+
+
+ul li {
+    width: 100%;
+}
+
+ul, li, h3 {
+   padding: 1px;
+   
+}
+
+.sobre {
+    padding: 80px;
+}
+
+.descricao button {
+    color: #272d81;
+    border-color: #272d81; /*cor da borda */
+    background-color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 30px;
+    margin-left: 30%;
+}
+
+.rodape a {
+    background-color: #272d81;
+    display: block;
+    color: white;
+    text-decoration: none;
+    width: 13%;
+    text-align: center;
+    margin: 12px; 
+    padding: 1px;
+    }
+
+.rodape {  
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-items:stretch;
+    justify-content:center;
+}
+
+
